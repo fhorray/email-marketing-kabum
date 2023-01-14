@@ -1,0 +1,297 @@
+<mjml>
+  <mj-head>
+    <mj-font
+      name="Inter"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap"
+    />
+    <mj-attributes>
+      <mj-text font-family="Inter, sans-serif" font-size="16px" />
+      <mj-section padding="0" />
+      <mj-image padding="0" />
+      <mj-navbar-link padding-top="9px" padding-bottom="9px" />
+      <mj-button background-color="#FF6500" font-size="20px" padding-left="0" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#ECECEC">
+    <!-- Menssagem Header -->
+    <mj-section>
+      <mj-column background-color="#003A6A">
+        <mj-text
+          align="center"
+          color="white"
+          font-size="12px"
+          padding-top="8px"
+          padding-bottom="8px"
+        >
+          Tá imperdível, vem aproveitar!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Logo header -->
+    <mj-section>
+      <mj-column background-color="#005EAD">
+        <mj-image
+          src="./img/kabum-logo.png"
+          alt="kabum logo"
+          width="125px"
+          padding-top="25px"
+          padding-bottom="25px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- Menu Section -->
+    <mj-section background-color="#FF510B">
+      <mj-column>
+        <mj-navbar hamburger="hamburger" ico-color="white">
+          <mj-navbar-link color="#fff" href="https://kabum.com.br"
+            >Placa de Video</mj-navbar-link
+          >
+          <mj-navbar-link color="#fff" href="https://kabum.com.br"
+            >SSD</mj-navbar-link
+          >
+          <mj-navbar-link color="#fff" href="https://kabum.com.br"
+            >teclado</mj-navbar-link
+          >
+          <mj-navbar-link color="#fff" href="https://kabum.com.br"
+            >Mouse</mj-navbar-link
+          >
+          <mj-navbar-link color="#fff" href="https://kabum.com.br"
+            >memória</mj-navbar-link
+          >
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+
+    <!-- Seção Promoções -->
+    <mj-section>
+      <mj-column>
+        <mj-image src="./img/hero.png" alt="Hero image" padding-top="30px" />
+        <mj-image src="./img/ofertas.png" alt="Hero image" padding-top="30px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Seção Produtos -->
+    <!-- Produto 1 -->
+    <mj-wrapper padding-top="30px">
+      <mj-section
+        background-color="#fff"
+        padding-right="0"
+        border-radius="10px"
+      >
+        <mj-column padding="30px 22px">
+          <mj-image src="./img/havit-phone.png" alt="Fone de Ouvido havit" />
+        </mj-column>
+
+        <mj-column width="50%" padding-top="30px" padding-bottom="30px">
+          <mj-text>
+            <span style="font-weight: 400">HAVIT</span>
+            <h2 style="font-weight: 600; font-size: 16px; margin-bottom: 30px">
+              Headset Gamer Havit, Drivers 53mm, Microfone...
+            </h2>
+            <span
+              style="
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                font-size: 55px;
+                font-family: inter;
+                font-weight: 900;
+                color: #ff6500;
+              "
+            >
+              -12%
+              <img src="./img/arrow.svg" alt="Arrow Down" />
+            </span>
+          </mj-text>
+          <!-- Botão Aproveite -->
+          <mj-button href="https://google.com">
+            <span style="padding: 22px">APROVEITE</span>
+          </mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- Produto 2 -->
+    <mj-wrapper padding-top="30px">
+      <mj-section
+        background-color="#fff"
+        padding-right="0"
+        border-radius="10px"
+      >
+        <mj-column padding="30px 22px">
+          <mj-image src="./img/samsung-phone.png" alt="Fone de Ouvido havit" />
+        </mj-column>
+
+        <mj-column width="50%" padding-top="30px" padding-bottom="30px">
+          <mj-text>
+            <span style="font-weight: 400">SAMSUNG</span>
+            <h2 style="font-weight: 600; font-size: 16px; margin-bottom: 30px">
+              Smartphone Samsung Galaxy M53 5G, 8GB RAM...
+            </h2>
+            <span
+              style="
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                font-size: 55px;
+                font-family: inter;
+                font-weight: 900;
+                color: #ff6500;
+              "
+            >
+              -12%
+              <img src="./img/arrow.svg" alt="Arrow Down" />
+            </span>
+          </mj-text>
+          <!-- Botão Aproveite -->
+          <mj-button href="https://google.com">
+            <span style="padding: 22px">APROVEITE</span>
+          </mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- Seção Departamentos -->
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text
+          align="center"
+          font-size="20px"
+          text-transform="uppercase"
+          font-weight="900"
+          color="#636363"
+          padding-bottom="30px"
+        >
+          <img src="./img/list-icon.svg" alt="Icone de Lista" /> Departamentos
+        </mj-text>
+      </mj-column>
+
+      <!-- Items UP-->
+      <mj-column padding="0 15px" padding-bottom="30px" width="33.3%">
+        <mj-image src="./img/gamer.png" alt="Gamer" href="https://google.com" />
+      </mj-column>
+      <mj-column padding="0 15px" padding-bottom="30px" width="33.3%">
+        <mj-image
+          src="./img/hardware.png"
+          alt="Gamer"
+          href="https://google.com"
+        />
+      </mj-column>
+      <mj-column padding="0 15px" padding-bottom="30px" width="33.3%">
+        <mj-image
+          src="./img/perifericos.png"
+          alt="Gamer"
+          href="https://google.com"
+        />
+      </mj-column>
+
+      <!-- Items Down -->
+      <mj-column padding="0 15px" padding-bottom="30px" width="33.3%">
+        <mj-image
+          src="./img/notebook.png"
+          alt="Gamer"
+          href="https://google.com"
+        />
+      </mj-column>
+      <mj-column padding="0 15px" padding-bottom="30px" width="33.3%">
+        <mj-image
+          src="./img/smartphone.png"
+          alt="Gamer"
+          href="https://google.com"
+        />
+      </mj-column>
+      <mj-column padding="0 15px" padding-bottom="30px" width="33.3%">
+        <mj-image
+          src="./img/smart-tv.png"
+          alt="Gamer"
+          href="https://google.com"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- Upper Footer -->
+    <mj-section>
+      <mj-column width="66%" background-color="#003A6A" padding-top="30px" padding-bottom="36px">
+        <mj-text font-size="15px" color="#fff">
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+            "
+          >
+            <!-- Siga a Kabum Div -->
+            <div>
+              Siga a
+              <span style="font-weight: 600">
+                KaBuM!
+                <img
+                  src="./img/after.svg"
+                  alt="After"
+                  style="position: relative; left: -107px; bottom: -17px"
+                />
+              </span>
+            </div>
+
+            <!-- Social Div -->
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 20px;
+              "
+            >
+              <a href="https://google.com.br">
+                <img src="./img/facebook.svg" alt="Facebook" />
+              </a>
+              <a href="https://google.com.br">
+                <img src="./img/twitter.svg" alt="Twitter" />
+              </a>
+              <a href="https://google.com.br">
+                <img src="./img/youtube.svg" alt="Youtube" />
+              </a>
+              <a href="https://google.com.br">
+                <img src="./img/instagram.svg" alt="Instagram" />
+              </a>
+            </div>
+          </div>
+        </mj-text>
+      </mj-column>
+
+      <mj-column
+        width="17%" background-color="#004682"padding-top="30px" padding-bottom="23px"
+      >
+        <mj-image
+          src="./img/portal.svg"
+          alt="Portal Icone"
+          width="40px"
+          align="center"
+        />
+      </mj-column>
+
+      <mj-column
+        width="17%" background-color="#004682" padding-top="30px"padding-bottom="30px"
+      >
+        <mj-image
+          src="./img/site.svg"
+          alt="Site Icone"
+          width="40px"
+          align="center"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section>
+      <mj-column width="100%" background-color="#005EAD">
+        <mj-text padding="30px 40px" align="center">
+              <img src="./img/kabum-logo.png" alt="Kabum Logo" />
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
